@@ -1,0 +1,45 @@
+@charset "UTF-8";
+:root{
+    /* 基础字号 */
+    --font-size-sm                              : 10px;    
+    --font-size-base                            : 12px;
+    --font-size-md                              : 14px;
+    --font-size-lg                              : 16px;
+    /* 字体 */
+    --font-family                               : "PingFang SC", "Noto Sans";
+    /* 主色 */
+    --primary-color                             : #EE2223;
+    /* 组件/浮层圆角 */
+    --border-radius-base                        : 2px;
+    /* 边框颜色 */
+    --border-color-base                         : #DCDCDC;
+
+    /* 标题色 */
+    --heading-color                             : #333333; 
+    /* 主文本色 */
+    --text-color                                : #666666; 
+    /* 次文本色 */
+    --text-color-secondary                      : #999999; 
+    /* 失效色 */
+    --disabled-color                            : #bfbfbf; 
+    /* 组件/浮层圆角 */
+    --border-radius-base                        : 2px;
+    /* 边框色 */
+    --border-color-base                         : #DCDCDC; 
+
+}
+*{
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-family) !important;
+    font-size: var(--font-size-base) !important;
+}
+::selection {
+    color: currentColor;
+    background-color: #9ebce3;
+}
+
+
